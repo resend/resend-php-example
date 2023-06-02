@@ -1,6 +1,6 @@
-# Resend with Example
+# Resend with PHP
 
-This example shows how to use Resend with [Example](https://example.com).
+This example shows how to use Resend with [PHP](https://www.php.net).
 
 ## Prerequisites
 
@@ -8,6 +8,14 @@ To get the most out of this guide, you’ll need to:
 
 * [Create an API key](https://resend.com/api-keys)
 * [Verify your domain](https://resend.com/domains)
+
+## Installation
+
+Get the [Resend PHP SDK](https://github.com/resendlabs/resend-php) via the [Composer](https://getcomposer.org/) package manager:
+
+```sh
+composer require resend/resend-php
+```
 
 ## Instructions
 
