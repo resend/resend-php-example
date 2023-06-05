@@ -1,0 +1,10 @@
+{
+    "name": "resend/resend-php-example",
+    "description": "Resend PHP example",
+    "type": "project",
+    "require": {
+        "resend/resend-php": "^0.6.0"
+    },
+    "license": "MIT",
+    "minimum-stability": "stable"
+}
