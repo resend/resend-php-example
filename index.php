@@ -11,7 +11,6 @@ try {
         'from' => 'onboarding@resend.dev',
         'to' => 'delivered@resend.dev',
         'subject' => 'Hello world',
-        'text' => 'It works!',
         'html' => '<strong>It works!</strong>',
     ]);
 } catch (\Exception $e) {
