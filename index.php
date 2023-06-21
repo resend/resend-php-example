@@ -8,8 +8,8 @@ $resend = Resend::client('re_123456789');
 
 try {
     $result = $resend->emails->send([
-        'from' => 'onboarding@resend.dev',
-        'to' => 'delivered@resend.dev',
+        'from' => 'Acme <onboarding@resend.dev>',
+        'to' => ['delivered@resend.dev'],
         'subject' => 'Hello world',
         'html' => '<strong>It works!</strong>',
     ]);
