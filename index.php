@@ -1,7 +1,7 @@
 <?php
 
 // Include Composer autoload file to load Resend SDK classes...
-require __DIR__ . '/../vendor/autoload.php';
+require __DIR__ . '/vendor/autoload.php';
 
 // Assign a new Resend Client instance to $resend variable, which is automatically autoloaded...
 $resend = Resend::client('re_123456789');
