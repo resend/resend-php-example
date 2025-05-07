@@ -3,7 +3,7 @@
     "description": "Resend PHP example",
     "type": "project",
     "require": {
-        "resend/resend-php": "^0.15.0"
+        "resend/resend-php": "^0.18.0"
     },
     "license": "MIT",
     "minimum-stability": "stable"
