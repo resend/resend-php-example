@@ -12,12 +12,12 @@ try {
         'to' => ['delivered@resend.dev'],
         'subject' => 'Hello world',
         'html' => '<strong>It works!</strong>',
-         'tags' => [
+        'tags' => [
             [
-            'name' => 'category',
-            'value' => 'confirm_email',
+                'name' => 'category',
+                'value' => 'confirm_email',
             ]
-        ] 
+        ]
     ]);
 } catch (\Exception $e) {
     exit('Error: ' . $e->getMessage());
